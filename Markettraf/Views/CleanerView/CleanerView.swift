@@ -19,6 +19,8 @@ class CleanerView: UIView {
     }
 }
 
+// MARK: - Configuration
+
 extension CleanerView {
     
     private func config() {

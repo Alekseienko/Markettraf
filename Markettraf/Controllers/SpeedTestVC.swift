@@ -1,26 +1,26 @@
 //
-//  CleanerVC.swift
+//  SpeedTestVC.swift
 //  Markettraf
 //
-//  Created by alekseienko on 30.03.2023.
+//  Created by alekseienko on 01.04.2023.
 //
 
 import UIKit
 
-class CleanerVC: UIViewController {
-    
+class SpeedTestVC: UIViewController {
 
+    
 }
 
 // MARK: - Life Circle
 
-extension CleanerVC {
+extension SpeedTestVC {
     
     override func loadView() {
         super.loadView()
-        self.view = CleanerView(frame: self.view.bounds)
+        self.view = SpeedTestView(frame: self.view.bounds)
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setNavbar()
@@ -29,7 +29,7 @@ extension CleanerVC {
 
 // MARK: -  UI Configuration
 
-extension CleanerVC {
+extension SpeedTestVC {
     
     private func setNavbar() {
         let img = UIImage(named: "backButton")
@@ -37,10 +37,10 @@ extension CleanerVC {
         backButton.tintColor = UIColor.white
         self.navigationItem.leftBarButtonItem = backButton
         
-        let logoImg = UIImage(named: "Cleaner Logo")
+        let logoImg = UIImage(named: "Speed Test Logo")
         let logoImageView = UIImageView(image: logoImg)
         let label = UILabel()
-        label.text = "Cleaner".uppercased()
+        label.text = "Speed Test".uppercased()
         label.textColor = UIColor.white
         label.font = UIFont(name: "Roboto-Medium", size: 14)
         let stackView = UIStackView(arrangedSubviews: [logoImageView,label])

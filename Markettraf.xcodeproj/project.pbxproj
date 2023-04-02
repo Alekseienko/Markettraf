@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0B18077629D839820085E0C2 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B18077529D839820085E0C2 /* Extentions.swift */; };
+		0B18077829D896820085E0C2 /* SpeedTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B18077729D896820085E0C2 /* SpeedTestVC.swift */; };
+		0B18077A29D897090085E0C2 /* SpeedTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B18077929D897090085E0C2 /* SpeedTestView.swift */; };
+		0B18077E29D8B6570085E0C2 /* SpeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B18077D29D8B6570085E0C2 /* SpeedView.swift */; };
+		0B18078029D957710085E0C2 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B18077F29D957710085E0C2 /* ProgressBar.swift */; };
+		0B2E88CC29D98AAB0057D1DB /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E88CB29D98AAB0057D1DB /* RootVC.swift */; };
 		0B66873D29D6CFE100B0FC19 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B66872A29D6CFE000B0FC19 /* Roboto-Medium.ttf */; };
 		0B66873E29D6CFE100B0FC19 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B66872B29D6CFE000B0FC19 /* Roboto-Light.ttf */; };
 		0B66873F29D6CFE100B0FC19 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B66872C29D6CFE000B0FC19 /* RobotoCondensed-Bold.ttf */; };
@@ -41,6 +46,11 @@
 
 /* Begin PBXFileReference section */
 		0B18077529D839820085E0C2 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		0B18077729D896820085E0C2 /* SpeedTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTestVC.swift; sourceTree = "<group>"; };
+		0B18077929D897090085E0C2 /* SpeedTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTestView.swift; sourceTree = "<group>"; };
+		0B18077D29D8B6570085E0C2 /* SpeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedView.swift; sourceTree = "<group>"; };
+		0B18077F29D957710085E0C2 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		0B2E88CB29D98AAB0057D1DB /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
 		0B66872A29D6CFE000B0FC19 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		0B66872B29D6CFE000B0FC19 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		0B66872C29D6CFE000B0FC19 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
@@ -85,6 +95,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B18077B29D8971D0085E0C2 /* CleanerView */ = {
+			isa = PBXGroup;
+			children = (
+				0B66875229D6E8C700B0FC19 /* CleanerView.swift */,
+				0B66875929D81CF900B0FC19 /* StatusBoardView.swift */,
+				0BBD89D129D57EAF005DC048 /* ButtonDoubleColors.swift */,
+				0B66875529D7394D00B0FC19 /* ButtonSingleColor.swift */,
+			);
+			path = CleanerView;
+			sourceTree = "<group>";
+		};
+		0B18077C29D897380085E0C2 /* SpeedTestView */ = {
+			isa = PBXGroup;
+			children = (
+				0B18077929D897090085E0C2 /* SpeedTestView.swift */,
+				0B18077D29D8B6570085E0C2 /* SpeedView.swift */,
+				0B18077F29D957710085E0C2 /* ProgressBar.swift */,
+			);
+			path = SpeedTestView;
+			sourceTree = "<group>";
+		};
 		0B66872929D6CFE000B0FC19 /* Font Roboto */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,7 +154,9 @@
 		0B66875829D74FD500B0FC19 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0B2E88CB29D98AAB0057D1DB /* RootVC.swift */,
 				0BBD89BE29D576F4005DC048 /* CleanerVC.swift */,
+				0B18077729D896820085E0C2 /* SpeedTestVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -163,10 +196,8 @@
 		0BBD89D029D57E18005DC048 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0B66875229D6E8C700B0FC19 /* CleanerView.swift */,
-				0B66875929D81CF900B0FC19 /* StatusBoardView.swift */,
-				0BBD89D129D57EAF005DC048 /* ButtonDoubleColors.swift */,
-				0B66875529D7394D00B0FC19 /* ButtonSingleColor.swift */,
+				0B18077B29D8971D0085E0C2 /* CleanerView */,
+				0B18077C29D897380085E0C2 /* SpeedTestView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -262,11 +293,16 @@
 			files = (
 				0BBD89CF29D578C0005DC048 /* View Extentions.swift in Sources */,
 				0BBD89BF29D576F4005DC048 /* CleanerVC.swift in Sources */,
+				0B18077E29D8B6570085E0C2 /* SpeedView.swift in Sources */,
+				0B18077829D896820085E0C2 /* SpeedTestVC.swift in Sources */,
 				0BBD89BB29D576F4005DC048 /* AppDelegate.swift in Sources */,
 				0BBD89BD29D576F4005DC048 /* SceneDelegate.swift in Sources */,
 				0B66875629D7394D00B0FC19 /* ButtonSingleColor.swift in Sources */,
 				0BBD89D229D57EAF005DC048 /* ButtonDoubleColors.swift in Sources */,
+				0B2E88CC29D98AAB0057D1DB /* RootVC.swift in Sources */,
 				0B66875329D6E8C700B0FC19 /* CleanerView.swift in Sources */,
+				0B18077A29D897090085E0C2 /* SpeedTestView.swift in Sources */,
+				0B18078029D957710085E0C2 /* ProgressBar.swift in Sources */,
 				0B66875A29D81CF900B0FC19 /* StatusBoardView.swift in Sources */,
 				0B18077629D839820085E0C2 /* Extentions.swift in Sources */,
 			);
