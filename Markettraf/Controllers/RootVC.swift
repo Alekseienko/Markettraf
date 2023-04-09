@@ -11,7 +11,7 @@ class RootVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.addGradient()
+        self.view.backgroundColor = .red
         
         let rect = CGRect(x: 0, y: 0, width: 200, height: 50)
         
